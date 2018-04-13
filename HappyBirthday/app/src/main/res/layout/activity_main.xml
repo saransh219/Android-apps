@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/winner" />
+
+    <TextView
+        android:id="@+id/cham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PUBG Regionals 2k18"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:paddingLeft="40dp"
+        android:paddingTop="40dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finals at-PAX Australia Register now-bit.ly/vnr"
+        android:textStyle="italic"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:paddingBottom="15dp"
+        android:paddingRight="25dp"
+
+        />
+
+
+</RelativeLayout>
