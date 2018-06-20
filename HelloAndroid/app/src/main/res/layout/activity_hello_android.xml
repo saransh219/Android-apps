@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/uda"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/udacity"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place to Ignite your Mind"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#039BE5"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="italic"
+        android:background="#FFFFFF"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Udacity"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_below="@+id/uda"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="650-555-5555"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="www.udacity.com"
+    android:fontFamily="sans-serif"
+    android:id="@+id/name2"
+    android:layout_below="@id/name1"
+    android:textColor="@android:color/black"
+    android:textSize="18dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="10dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2465 Latham St,Mountain View, CA 94043"
+        android:fontFamily="sans-serif"
+        android:id="@+id/name3"
+        android:layout_below="@id/name2"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>
