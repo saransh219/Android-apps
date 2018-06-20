@@ -71,7 +71,7 @@
          android:layout_height="wrap_content"
          android:text="Signup"
          android:layout_marginTop="120dp"
-         margin android:layout_marginLeft="50dp"/>
+         android:layout_marginLeft="50dp"/>
  </LinearLayout>
 
 </LinearLayout>
